@@ -1,9 +1,10 @@
 import React from 'react';
+import backgroundImg from '../../Assets/Images/kids.jpg'
 
 
 function HomePage() {
     return (
-        <div className="uk-position-relative">
+        <div >
             <div className="uk-position-top">
                 <nav className="uk-navbar-container uk-navbar-transparent uk-container" uk-navbar="">
 
@@ -31,6 +32,12 @@ function HomePage() {
 
 
                 </nav>
+                
+            </div>
+            <div className="uk-position-center ">
+            <h2 className="uk-container uk-text-center">A Website that enables the tracking, managing and reporting on what
+                happens with children at a Pre-School on a daily basis
+            </h2>
             </div>
         </div>
     );
