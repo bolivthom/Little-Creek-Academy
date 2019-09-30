@@ -9,15 +9,13 @@ function LoginPage() {
 
     <div class="uk-margin-small">
         <div class="uk-inline">
-            <a class="uk-form-icon" href="#" uk-icon="icon: pencil"></a>
-            <input class="uk-input  uk-width-medium" type="text"/>
+            <input class="uk-input  uk-width-medium" type="text" placeholder="ID Number"/>
         </div>
     </div>
 
     <div class="uk-margin-small">
         <div class="uk-inline">
-            <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: link"></a>
-            <input class="uk-input  uk-width-medium" type="text"/>
+            <input class="uk-input  uk-width-medium" type="text" placeholder="Password"/>
         </div>
     </div>
 
