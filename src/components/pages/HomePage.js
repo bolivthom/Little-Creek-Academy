@@ -1,4 +1,5 @@
 import React from 'react';
+import MainFooter from '../footer/MainFooter';
 
 
 function HomePage() {
@@ -12,7 +13,7 @@ function HomePage() {
                                 <a href="/">PRESCHOOL MANAGEMENT SYSTEM</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="/about">About</a>
+                                <a className="uk-text-capitalize" href="#">About</a>
                             </li>
                             <li>
                                 <a className="uk-text-capitalize" href="#">Curriculum</a>
@@ -21,7 +22,7 @@ function HomePage() {
                                 <a className="uk-text-capitalize" href="#">Pricing</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="/contact">Contact</a>
+                                <a className="uk-text-capitalize" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -43,7 +44,7 @@ function HomePage() {
                 </nav>
                 
             
-            <div style={sectionB} className="Slider">
+            <div style={sectionA} className="Slider">
                 <div className="uk-container">
                     <h1 style={sliderContent} className="uk-text-lead uk-text-light">Lorem ipsum dolor</h1>
                     <p style={sliderContent} className="uk-text-meta uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -54,12 +55,11 @@ function HomePage() {
                 </div>
             </div>
             
-            <div style={sectionA}>
-                <p></p>
-            </div>
+            
             <div style={sectionC}>
                 <p></p>
             </div>
+            <MainFooter/>
     </div>
     );
 }
@@ -79,12 +79,6 @@ const sliderContent ={
 }
 
 const sectionA = {
-    height: "300px",
-    marginTop: "200px",
-    backgroundColor: "#F2F3F4"
-}
-
-const sectionB = {
     marginTop: "200px"
 }
 
