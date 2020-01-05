@@ -10,19 +10,19 @@ function HomePage() {
                     <div className="uk-navbar-left">
                         <ul className="uk-navbar-nav">
                             <li className="uk-active">
-                                <a href="/">PRESCHOOL MANAGEMENT SYSTEM</a>
+                                <a href="/">LITTLE CREEK PRESCHOOL</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="#">About Us</a>
+                                <a className="uk-text-capitalize uk-text-light" href="#">About Us</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="#">Curriculum</a>
+                                <a className="uk-text-capitalize uk-text-light" href="#">Curriculum</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="#">Admission</a>
+                                <a className="uk-text-capitalize uk-text-light" href="#">Admission</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="#">Contact</a>
+                                <a className="uk-text-capitalize uk-text-light" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -34,7 +34,7 @@ function HomePage() {
                                 <a className="uk-text-capitalize" href="/login">Log in</a>
                             </li>
                             <li style={orText}>
-                                <a className="uk-text-lowercase" href="#">or</a>
+                                <a className="uk-text-lowercase uk-text-light" href="#">or</a>
                             </li>
                             <p style={loginButton}>
                                 <a className="uk-button uk-button-primary uk-text-capitalize uk-button-small" href="/registration">Register</a>

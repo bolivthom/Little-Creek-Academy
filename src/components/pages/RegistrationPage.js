@@ -5,7 +5,7 @@ function RegistrationPage() {
   return ( 
       <div>
           <div style={registrationForm} className="uk-grid">
-    <div className="">
+    <div style={switcherNav}>
 
         <ul className="uk-nav uk-nav-default" uk-switcher="connect: #component-nav; animation: uk-animation-fade">
             <li><a href="#">Personal Information</a></li>
@@ -85,6 +85,9 @@ function RegistrationPage() {
                             <input class="uk-input uk-text-light" type="text" placeholder="Surname"></input>
                         </div>
                         <div class="uk-margin">
+                            <input class="uk-input uk-text-light" type="text" placeholder="Relationship"></input>
+                        </div>
+                        <div class="uk-margin">
                             <input class="uk-input uk-text-light" type="text" placeholder="Email"></input>
                         </div>
                         <div class="uk-margin">
@@ -111,6 +114,9 @@ function RegistrationPage() {
                         </div>
                         <div class="uk-margin">
                             <input class="uk-input uk-text-light" type="text" placeholder="Surname"></input>
+                            <div class="uk-margin">
+                            <input class="uk-input uk-text-light" type="text" placeholder="Relationship"></input>
+                        </div>
                         </div>
                         <div class="uk-margin">
                             <input class="uk-input uk-text-light" type="text" placeholder="Email"></input>
@@ -144,11 +150,11 @@ function RegistrationPage() {
                     <div class="uk-margin" uk-margin>
         <div uk-form-custom="target: true" class="uk-margin-right">
             <input type="file"></input>
-            <input class="uk-input uk-form-width-medium uk-text-light" type="text" placeholder="Select file" disabled></input>
+            <input class="uk-input uk-form-width-medium uk-text-light" type="text" placeholder="Select Birth Certificate" disabled></input>
         </div>
         <div uk-form-custom="target: true">
             <input type="file"></input>
-            <input class="uk-input uk-form-width-medium uk-text-light" type="text" placeholder="Select file" disabled></input>
+            <input class="uk-input uk-form-width-medium uk-text-light" type="text" placeholder="Select Medical Form" disabled></input>
         </div>
     </div>
                     </fieldset>
@@ -166,12 +172,17 @@ function RegistrationPage() {
 const registrationForm ={
     marginTop: "10%",
     marginRight: "10%",
-    marginLeft: "10%"
+    marginLeft: "10%",
+    marginBottom: "10%"
 }
 
 const fieldset = {
     marginRight: "10%",
     marginLeft: "10%"
+}
+
+const switcherNav = {
+    marginTop: "7%"
 }
 
 export default RegistrationPage;
