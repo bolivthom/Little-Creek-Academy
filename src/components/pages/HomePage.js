@@ -54,6 +54,16 @@ function HomePage() {
                     <button style={sliderContent} class="uk-button uk-button-primary">Primary</button>
                 </div>
             </div>
+            <div uk-slideshow>
+    <ul class="uk-slideshow-items">
+        <li>
+            a
+        </li>
+        <li>
+            b
+        </li>
+    </ul>
+</div>
             
             
             <div style={sectionC}>
@@ -86,4 +96,5 @@ const sectionC = {
     height: "200px",
     marginTop: "200px"
 }
+
 export default HomePage;
