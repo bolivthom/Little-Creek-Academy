@@ -13,13 +13,13 @@ function HomePage() {
                                 <a href="/">PRESCHOOL MANAGEMENT SYSTEM</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="#">About</a>
+                                <a className="uk-text-capitalize" href="#">About Us</a>
                             </li>
                             <li>
                                 <a className="uk-text-capitalize" href="#">Curriculum</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize" href="#">Pricing</a>
+                                <a className="uk-text-capitalize" href="#">Admission</a>
                             </li>
                             <li>
                                 <a className="uk-text-capitalize" href="#">Contact</a>
@@ -31,13 +31,13 @@ function HomePage() {
                     <div className="uk-navbar-right">
                         <ul className="uk-navbar-nav">
                             <li className="uk-active register-button">
-                                <a className="uk-text-capitalize" href="#">Register</a>
+                                <a className="uk-text-capitalize" href="/login">Log in</a>
                             </li>
                             <li style={orText}>
                                 <a className="uk-text-lowercase" href="#">or</a>
                             </li>
                             <p style={loginButton}>
-                                <a className="uk-button uk-button-primary uk-text-capitalize uk-button-small" href="/login">Log in</a>
+                                <a className="uk-button uk-button-primary uk-text-capitalize uk-button-small" href="/registration">Register</a>
                             </p>
                         </ul>
                     </div>

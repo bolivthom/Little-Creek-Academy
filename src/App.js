@@ -5,6 +5,7 @@ import ContactPage from './components/pages/ContactPage';
 import HomePage from './components/pages/HomePage';
 import LoginPage from './components/pages/LoginPage';
 import AdminDashboard from './components/dashboards/AdminDashboard';
+import RegistrationPage from './components/pages/RegistrationPage';
 
 
 import './App.css';
@@ -20,6 +21,7 @@ export default class App extends Component {
         <Route path='/contact' exact component={ContactPage} />
         <Route path='/login' exact component={LoginPage} />
         <Route path="/dashboard/admin" exact component={AdminDashboard} />
+        <Route path="/registration" exact component={RegistrationPage} />
       </Switch>
     );
   }

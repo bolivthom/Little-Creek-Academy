@@ -4,32 +4,31 @@ import React from 'react';
 function MainFooter() {
   return ( 
         <div style={footer}>
-            <div className="uk-width-1-1@s uk-container uk-navbar-left">
+            <div className="uk-container uk-navbar-left">
             <ul className="uk-nav uk-nav-default uk-margin-xlarge-right">
-                <li style={footerHeader} className="uk-active"><a href="#">HEADER</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
+                <li style={footerHeader} className="uk-active">INFORMATION</li>
+                <li className="uk-text-light"><a href="#">About Us</a></li>
+                <li className="uk-text-light"><a href="#">Curriculum</a></li>
+                <li className="uk-text-light"><a href="#">Admission</a></li>
+                <li className="uk-text-light"><a href="#">Contact</a></li>
             </ul>  
 
             <ul className="uk-nav uk-nav-default uk-margin-xlarge-right">
-                <li style={footerHeader} className="uk-active"><a href="#">HEADER</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
+                <li style={footerHeader} className="uk-active">EVENTS</li>
+                <li className="uk-text-light"><a href="#">Calender</a></li>
+                <li className="uk-text-light"><a href="#">News</a></li>
             </ul>  
 
             <ul className="uk-nav uk-nav-default uk-margin-xlarge-right">
-                <li style={footerHeader} className="uk-active"><a href="#">HEADER</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
+                <li style={footerHeader} className="uk-active">RESOURCES</li>
+                <li className="uk-text-light"><a href="#">FAQ</a></li>
+                <li className="uk-text-light"><a href="#">Preperation and Drop-off</a></li>
+                <li className="uk-text-light"><a href="#">Supply List</a></li>
             </ul>   
             <ul className="uk-nav uk-nav-default">
-                <li style={footerHeader} className="uk-active"><a href="#">HEADER</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
-                <li className="uk-text-light"><a href="#">Item</a></li>
+                <li style={footerHeader} className="uk-active">CONTACT</li>
+                <li className="uk-text-light"><a href="#">Employment Opportunities</a></li>
+                <li className="uk-text-light"><a href="#">Information Request Form</a></li>
             </ul>   
         </div>
       </div>
@@ -37,14 +36,12 @@ function MainFooter() {
 }
 
 const footer = {
-    paddingTop: "50px",
     backgroundColor: "#F2F3F4",
-    height: "200px",
-    paddingLeft: "25%",
-    paddingRight: "10%"
+    height: "300px",
 }
 
 const footerHeader = {
+    marginTop: "50px",
     fontSize: "12px",
 }
 
