@@ -32,7 +32,7 @@ function AdminStudent() {
                                 <a className="uk-text-capitalize uk-text-light" href="/dashboard/admin/admissions">Admissions</a>
                             </li>
                             <li className="uk-margin-large-right">
-                                <span style={userIcon} data-uk-icon="user"/>
+                            <a className="uk-text-capitalize uk-text-light">Admin</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="#">My Account</a></li>
@@ -43,19 +43,13 @@ function AdminStudent() {
                         </ul>
                     </div>
             </nav>
-          <h1 className="uk-text-lead uk-text-light">All Students</h1>
+            <h1 className="uk-text-lead uk-text-light">Students</h1>
+            
       </div>
   );
 }
 
-const card = {
-    marginTop: "10%",
-    marginLeft: "5%"
+const search = {
+    width: "800px"
 }
-
-const userIcon = {
-    marginTop: "26px",
-    marginLeft: "16px"
-}
-
 export default AdminStudent;

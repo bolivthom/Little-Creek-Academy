@@ -43,15 +43,10 @@ function AdminAdmission() {
                         </ul>
                     </div>
             </nav>
-          <h1 className="uk-text-lead uk-text-light">All Admisions</h1>
+          <h1 className="uk-text-lead uk-text-light">Admisions</h1>
             
       </div>
   );
-}
-
-const card = {
-    marginTop: "10%",
-    marginLeft: "5%"
 }
 
 const userIcon = {

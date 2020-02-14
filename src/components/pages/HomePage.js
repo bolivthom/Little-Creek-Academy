@@ -10,19 +10,19 @@ function HomePage() {
                     <div className="uk-navbar-left">
                         <ul className="uk-navbar-nav">
                             <li className="uk-active">
-                                <a href="/">LITTLE CREEK PRESCHOOL</a>
+                                <a href="/">LITTLE CREEK ACADEMY</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize uk-text-light" href="#">About Us</a>
+                                <a className="uk-text-light" href="#">About us</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize uk-text-light" href="#">Curriculum</a>
+                                <a className="uk-text-light" href="#">Curriculum</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize uk-text-light" href="#">Admission</a>
+                                <a className="uk-text-light" href="#">Admission</a>
                             </li>
                             <li>
-                                <a className="uk-text-capitalize uk-text-light" href="#">Contact</a>
+                                <a className="uk-text-light" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -31,13 +31,13 @@ function HomePage() {
                     <div className="uk-navbar-right">
                         <ul className="uk-navbar-nav">
                             <li className="uk-active register-button">
-                                <a className="uk-text-capitalize" href="/login">Log in</a>
+                                <a href="/login">Log in</a>
                             </li>
                             <li style={orText}>
                                 <a className="uk-text-lowercase uk-text-light" href="#">or</a>
                             </li>
-                            <p style={loginButton}>
-                                <a className="uk-button uk-button-primary uk-text-capitalize uk-button-small" href="/registration">Register</a>
+                            <p style={registerButton}>
+                                <a className="uk-button uk-button-primary uk-text-light" href="/registration">Register</a>
                             </p>
                         </ul>
                     </div>
@@ -51,10 +51,10 @@ function HomePage() {
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                     </p>
-                    <button style={sliderContent} class="uk-button uk-button-primary">Primary</button>
+                    <button style={sliderContent} class="uk-button uk-button-primary uk-text-light">Primary</button>
                 </div>
             </div>
-            <div uk-slideshow>
+            <div className="uk-slideshow">
     <ul class="uk-slideshow-items">
         <li>
             a
@@ -73,9 +73,12 @@ function HomePage() {
     </div>
     );
 }
+const navPage = {
+    fontSize: "10px"
+};
 
-const loginButton = {
-    marginTop: "25px"
+const registerButton = {
+    marginTop: "18px"
 };
 
 const orText = {

@@ -43,15 +43,10 @@ function AdminClasses() {
                         </ul>
                     </div>
             </nav>
-          <h1 className="uk-text-lead uk-text-light">All Classes</h1>
+          <h1 className="uk-text-lead uk-text-light">Classes</h1>
             
       </div>
   );
-}
-
-const card = {
-    marginTop: "10%",
-    marginLeft: "5%"
 }
 
 const userIcon = {

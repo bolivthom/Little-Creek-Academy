@@ -43,7 +43,7 @@ function AdminTeacher() {
                         </ul>
                     </div>
             </nav>
-          <h1 className="uk-text-lead uk-text-light">All Teachers</h1>
+          <h1 className="uk-text-lead uk-text-light">Teachers</h1>
             
       </div>
   );

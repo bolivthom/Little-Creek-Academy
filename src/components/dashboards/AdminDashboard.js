@@ -8,12 +8,6 @@ function AdminDashboard() {
   return ( 
       <div>
           <AdminNavbar />
-
-            <div style={card} class="uk-card uk-card-default uk-card-body uk-width-1-5@m">
-                <p className="uk-text-light">Students</p>
-                <p className="uk-text-light">Teachers</p>
-                <p className="uk-text-light">Classes</p>
-            </div>
             
       </div>
   );

@@ -19,20 +19,8 @@ function AdminDashboard() {
 
                     <div className="uk-navbar-right uk-margin-right">
                         <ul className="uk-navbar-nav">
-                        <li>
-                                <a className="uk-text-capitalize uk-text-light" href="/dashboard/admin/students">Students</a>
-                            </li>
-                            <li>
-                                <a className="uk-text-capitalize uk-text-light" href="/dashboard/admin/teachers">Teachers</a>
-                            </li>
-                            <li>
-                                <a className="uk-text-capitalize uk-text-light" href="/dashboard/admin/classes">Classes</a>
-                            </li>
-                            <li>
-                                <a className="uk-text-capitalize uk-text-light" href="/dashboard/admin/admissions">Admissions</a>
-                            </li>
                             <li className="uk-margin-large-right">
-                                <span style={userIcon} data-uk-icon="user"/>
+                            <a className="uk-text-light">Account</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="#">My Account</a></li>
@@ -50,10 +38,6 @@ function AdminDashboard() {
 
 
 
-const userIcon = {
-    marginTop: "26px",
-    marginLeft: "16px"
-}
 
 
 export default AdminDashboard;
