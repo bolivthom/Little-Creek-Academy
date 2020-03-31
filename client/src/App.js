@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { Route, Switch } from 'react-router-dom';
 import AboutPage from './components/pages/AboutPage';
 import ContactPage from './components/pages/ContactPage';
@@ -19,20 +20,6 @@ import './App.css';
 
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { apiResponse: "" };
-}
-
-callAPI() {
-    fetch("http://localhost:9000/testAPI")
-        .then(res => res.text())
-        .then(res => this.setState({ apiResponse: res }));
-}
-
-componentWillMount() {
-    this.callAPI();
-}
   render() {
     return (
       <Switch>

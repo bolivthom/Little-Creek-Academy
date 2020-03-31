@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import MainFooter from '../footer/MainFooter';
+import axios from 'axios';
 
-
-function HomePage() {
+export default class  HomePage extends Component {
+    state = {
+        hello: null
+      }
+     
+      componentDidMount() {
+        axios.get('/hello')
+        .then(res => this.setState({hello: res.data}))
+        .catch(err => console.log(err))
+      }
+      render() {
     return (
-        <div >
+        <div>
             
                 <nav className="uk-navbar-container uk-navbar-transparent uk-container" uk-navbar="">
                     <div className="uk-navbar-left">
@@ -64,6 +74,13 @@ function HomePage() {
         </li>
     </ul>
 </div>
+
+<div>
+    <p className="uk-text-meta uk-text-light">{this.state.hello
+    ? <p> {this.state.hello} </p>
+    :null}</p>
+</div>
+
             
             
             <div style={sectionC}>
@@ -72,6 +89,7 @@ function HomePage() {
             <MainFooter/>
     </div>
     );
+      }
 }
 const navPage = {
     fontSize: "10px"
@@ -100,4 +118,3 @@ const sectionC = {
     marginTop: "200px"
 }
 
-export default HomePage;

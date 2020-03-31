@@ -32,7 +32,7 @@ function LoginPage() {
     </div>
 
     </form>
-    <button class="uk-button uk-button-primary uk-width-expand uk-width-medium uk-text-capitalize">Log in</button>
+    <button class="uk-button uk-button-primary uk-width-expand uk-width-medium">Log in</button>
       
       </div>
       </div>
